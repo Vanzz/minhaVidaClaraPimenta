@@ -80,6 +80,7 @@ public class No {
 			escolha = random.nextInt(nosFilhosDoSenhor.size());
 			
 			//mostrarFilho(nosFilhosDoSenhor.get(escolha));
+			mostrarFilhos();
 			
 			//GameManager.getInstance().vezJogador = !GameManager.getInstance().vezJogador;
 			return nosFilhosDoSenhor.get(escolha);
