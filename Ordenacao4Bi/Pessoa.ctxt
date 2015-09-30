@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=pessoas
+comment0.target=void\ ordenarPorNomes(java.util.List)
+comment1.params=pessoas
+comment1.target=void\ ordenarPorIdades(java.util.List)
+comment2.params=qtde
+comment2.target=java.util.List\ construirPessoas(int)
+comment3.params=nome\ idade
+comment3.target=Pessoa(java.lang.String,\ java.lang.Integer)
+comment4.params=ps\ i\ m
+comment4.target=void\ trocar(java.util.List,\ int,\ int)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

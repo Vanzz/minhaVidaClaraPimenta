@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ListaOrdenadaInv()
+comment1.params=v
+comment1.target=void\ inserir(java.lang.Comparable)
+comment2.params=v
+comment2.target=int\ buscar(java.lang.Comparable)
+comment3.params=i
+comment3.target=java.lang.Comparable\ removerEm(int)
+comment4.params=i
+comment4.target=java.lang.Comparable\ recuperarEm(int)
+comment5.params=
+comment5.target=int\ numElementos()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

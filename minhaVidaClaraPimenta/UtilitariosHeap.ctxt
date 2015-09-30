@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UtilitariosHeap()
+comment1.params=i
+comment1.target=int\ esq(int)
+comment2.params=i
+comment2.target=int\ dir(int)
+comment3.params=arr
+comment3.target=boolean\ verificarHeap(java.lang.Comparable[])
+numComments=4
