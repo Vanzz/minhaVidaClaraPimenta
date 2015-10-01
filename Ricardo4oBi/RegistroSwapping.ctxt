@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=tamanho
+comment0.target=void\ registrarProcesso(int)
+comment0.text=\n\ @param\ tamanho\ tamanho\ em\ bytes\ \n
+comment1.params=inicio\ fim
+comment1.target=void\ registrarBuraco(int,\ int)
+comment1.text=\n\ @param\ inicio\ palavra\ da\ memoria\ onde\ inicia\ o\ buraco\n\ @param\ fim\ palavra\ da\ memoria\ onde\ termina\ o\ buraco\n
+numComments=2
