@@ -1,6 +1,6 @@
 Grafos
 
-(Imagem, foto no celular Grafos)
+(Imagem, foto no celular Grafos - Konigsberg)
 
 1o Teorema de Euler
 
@@ -53,3 +53,43 @@ Uma floresta é um compnente conexo que não possui circuitos.
 O   O   O
 
 Uma árvore é um grafo que não possui circuitos. Em grafos, uma árvore é dito livre por não ter raiz.
+
+Diâmetro de um grafo é a menor distância entre os dois vértices mais distantes.
+
+Estruturas de dados para Grafos:
+
+(Imagem celular - exemplo riscado)
+
+Lista de vértices
+
+List<Vertice> V;
+List<Arestas> E;
+
+List<Vertice> V = { new Vertice ("N"),
+					new Vertice ("C"),
+					new Vertice ("S"),
+					new Vertice ("L")}
+
+public interface Vertice<V> {
+	V getValue();
+}
+
+public class Aresta<K, V> {
+	Vertice<V>, vi, ve;
+	K valor;
+}
+
+TAD Grafos:
+
+- vértices()
+- arestas()
+- arestasIncidentes(v)
+- opostoA(v,e)
+- verticesDe(e)
+- saoAdjacentes(v,w)
+- substituir(v,x)
+- substituir(e,x)
+- inserirVertice(x)
+- removerVertice(v)
+- removerAresta(e)
+- inserirAresta(v,w,x)
