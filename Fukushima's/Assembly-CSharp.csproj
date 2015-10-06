@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{3B4D7A7B-B193-C7B8-731F-3F701A73DF6D}</ProjectGuid>
+	<ProjectGuid>{5D3CD91D-BE38-B096-E519-73A19D59917C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,18 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Completed\Scripts\BoardManager.cs" />
-     <Compile Include="Assets\Completed\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Completed\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Completed\Scripts\Loader.cs" />
-     <Compile Include="Assets\Completed\Scripts\MovingObject.cs" />
-     <Compile Include="Assets\Completed\Scripts\Player.cs" />
-     <Compile Include="Assets\Completed\Scripts\SoundManager.cs" />
-     <Compile Include="Assets\Completed\Scripts\Wall.cs" />
-     <Compile Include="Assets\Scripts\BoardManager.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Loader.cs" />
-     <None Include="Assets\Fonts\OFL.txt" />
+     <Compile Include="Assets\Pokemons\Mew.cs" />
+     <Compile Include="Assets\Pokemons\Pikachu.cs" />
+     <Compile Include="Assets\Pokemons\Pokemon.cs" />
+     <Compile Include="Assets\Pokemons\PokemonManager.cs" />
+     <Compile Include="Assets\Pokemons\Stats.cs" />
+     <Compile Include="Assets\Pokemons\Test.cs" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>

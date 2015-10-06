@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{6F0D6A32-94BE-20CA-6EE5-FBB0F0AAAF5C}") = "Roguelike", "Assembly-CSharp.csproj", "{3B4D7A7B-B193-C7B8-731F-3F701A73DF6D}"
+Project("{C0CE3817-2B4A-F277-D462-F31627BFA6AE}") = "Fukushima's", "Assembly-CSharp.csproj", "{5D3CD91D-BE38-B096-E519-73A19D59917C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3B4D7A7B-B193-C7B8-731F-3F701A73DF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B4D7A7B-B193-C7B8-731F-3F701A73DF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B4D7A7B-B193-C7B8-731F-3F701A73DF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B4D7A7B-B193-C7B8-731F-3F701A73DF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3CD91D-BE38-B096-E519-73A19D59917C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3CD91D-BE38-B096-E519-73A19D59917C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3CD91D-BE38-B096-E519-73A19D59917C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3CD91D-BE38-B096-E519-73A19D59917C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

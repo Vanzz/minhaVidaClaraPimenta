@@ -1,0 +1,55 @@
+Grafos
+
+(Imagem, foto no celular Grafos)
+
+1o Teorema de Euler
+
+Quando todos os vértices tem grau ímpar, não há caminho Euleriano.
+
+Definição
+G(V,E), onde
+
+vértices V = conjunto de todos os vértices
+arestas E = conjunto de todos os relcionamentos binários existentes em VvEV
+
+Exemplo, mapa de Konigrberg:
+V = (N, C, S, L)
+E = (S<->C, S<->C, S<->L, C<->L, L<->N, N<->C, N<->C)
+
+Um grafo pode ter arestas direcionadas ou adirecionadas. No primeiro caso, são conhecidos como dígrafos
+
+(u,v) != (v,u) em dígrafos
+{u,v} grafos adirecionados
+
+Dois vértices são adjacentes se houver uma aresta entre eles.
+
+Uma aresta e é incidente a um vértice v se ela termina no vértice v.
+
+Dizemos que o vértice v possui grau deg(v) igual a quantidade de arestas incidentes a e para ele.
+
+Um grafo é dito simples se entre vértices existir apenas uma ligado em determinada direção.
+
+Quando há duas ou mais arestas para um mesmo relacionamento, dizemos que são paralelas.
+
+Um caminho em um grafo é aquele que se inicia em um vértice v, e termina em vf, passando por outros vértices, seguindo arestas existentes.
+
+Um ciclo é um caminho onde vi = vf
+Um circuito é ciclo que não repete vértices.
+
+O subgrafo H(V', E') é aquele cujos V'CV e E'CE de outro grafo G(V,E).
+
+Um sugrafo de cobertura é aquele H(V, E')
+para G(V,E), onde E'CE.
+
+Um grefo é dito conexo se entre quaisquer dois vértices houver um caminho entre eles. Senão, dizemos que ele possui componentes conexos.
+Ex:
+  O - O
+ / \ / \
+O   O   O
+
+Uma floresta é um compnente conexo que não possui circuitos.
+  O   O
+ / \ / \
+O   O   O
+
+Uma árvore é um grafo que não possui circuitos. Em grafos, uma árvore é dito livre por não ter raiz.
