@@ -93,3 +93,175 @@ TAD Grafos:
 - removerVertice(v)
 - removerAresta(e)
 - inserirAresta(v,w,x)
+
+(Continuacão)
+Alguns Problemas Recorrentes
+
+* Caminho mais curto dado um nó v, e outro ve, qual o caminho com a menor quantidade de travessias de arestas.
+
+* Caminho mais curto com peso similar ao anterior mas leva em conta uma chave comum entre arestas.
+
+* Coloração: quantos grupos de adjacência única há no grafo.
+
+* Mínimo corte: dados va e vb, achar o menor conjunto de arestas que se removidas tornam va e vb desconexos.
+
+* Clique: encontrar um conjunto de vértices V' tal que ∀ Va E V' e ∀ Vb E V', há um caminho entre Va e Vb.
+
+Ex:
+(Foto, celular)
+O-O-O-O-O
+| | | | |
+O-O-O-O-O
+| | | | |
+O-O-O-O-O
+| | | | |
+O-O-O-O-O
+| | | | |
+O-O-O-O-O
+
+Percorrer grafos
+
+* Há dois algoritmos 
+- Busca em profundidade (DFS)
+- Busca em largura ou extensão (BFS)
+
+Execução de DFS
+
+- Usa pilha como estratégia de busca
+
+Pilha	Visitados
+  4			0
+  3			1
+  2			5
+  9			2
+  8			6
+  14		
+  13
+  10
+  
+Execução de BFS
+
+- Usa fila como estratégia de busca
+
+Fila  Visitados  7
+  		  0
+  		  4
+  2       3
+  1
+  12
+  8
+  7
+  0
+  11
+  7
+  6
+  0
+  
+Propriedades:
+				DFS				BFS
+Tempo			O(2^n)			O(2^n)
+
+Espaço			O(n)			O(2^n) 
+
+Ótimo			Não				Sim
+
+Completo		Não				Sim
+
+Ex: 
+
+(A)    (B)
+ |    /  |
+(C) (D)-(E)
+ | /     |
+(F)     (G)
+
+a) Utilize DFS para encontrar C partindo de E
+Pilha  Visitados
+  G		E
+  D		B
+  A		D
+  F	  	F
+  	  	C
+B) Mesma coisa porém com BFS
+Pilha  Visitados
+  		E
+  		G
+  	  	D
+  		B
+  	  	F
+  	  	C
+  
+  
+  
+  
+  D
+  
+Lista de adjacências
+
+Lista de vértices = [A, B, C, D, E, F, G]
+Lista de adjacências = A->C,
+					   C->A,
+					   C->F,
+					   F->C,
+					   F->D,
+					   D->F,
+					   D->E,
+					   D->B,
+					   B->D,
+					   B->E,
+					   E->D,
+					   E->B,
+					   E->G,
+					   G->E.
+					   
+Matriz de adjacências
+					 0  1  2  3  4  5  6
+Lista de vértices = [A, B, C, D, E, F, G]		
+  0 1 2 3 4 5 6
+0 -   t  
+1   -
+2 t   -     t
+3       -
+4         -
+5     t     -
+6 	      -
+
+Caminhos em gratos
+
+Considere o grafo
+
+(Foto dia 20/10/2015)
+
+Qual a menor distância entre um vértice vEG para todos os vértices vEG?
+
+- Algoritmo de Dijkstra!
+- Calcula as  distâncias mínimas, mas não os caminhos.
+
+Funcionamento: Qual as distâncias mínimas entre RJ e todas as outras cidades?
+D
+Vit[∞]
+BH [∞]
+Goi[∞]
+RJ [0]
+SP [∞]
+Lon[∞]
+Ctb[∞]
+PA [∞]
+
+       RJ
+      /  \
+   Vit    BH
+  /  \   /  \
+ Goi SP Lon Ctb
+ /
+PA
+	
+Distancia de londrina
+
+Goi = 60
+Sp  = 15
+PA  = 115
+Ctb = 75
+BH  = 45
+RJ  = 55
+Vit = 70	  

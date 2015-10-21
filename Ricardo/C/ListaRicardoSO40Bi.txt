@@ -1,0 +1,26 @@
+Lista Sistemas Operacionais
+
+1. O swapping funciona da seguinte maneira, sistema escolhe um programa residente que é levado da memória para o disco (swap out), retornando posteriormente para a memória principal como se nada tivesse ocorrido. Quando o programa tiver que ser executado novamente, então ele é novamente carregado para a memória principal (swap in) 
+- O Processo deve estar inteiro na mesma memoria.
+- Se crescer demais, pode não haver espaço suficiente.
+- Se for maior que a memoria fisica, impossivel funcionar.
+- Terá um elevado custo de operações de entrada e saída.
+
+2. 
+a) Explique o funcionamento da técnica.
+É uma técnica de separação do programa em módulos lógicos, tal que caibam na memória, mas o   
+programa pode se constituir de quantos overlays forem necessarios.
+
+b) Pense em um exemplo e descreva-o.
+VideoGames, Roteadores por exemplo, a maioria utiliza sistemas embarcados, normalmente usam a sobreposição devido a limitação da memória física, que é a memória interna para um sistema em chip. É completamente encapsulado ou dedicado ao dispositivo ou sistema que o controla.  Imagina um VideoGame com 256 MB de video, rodando jogos pesadissimos, que para rodar em um desck requer placa grafica dedicada de 1GB, directX 11 256 Bits.
+
+c) Qual a vantagem dessa técnica em relação à do swapping?
+
+d) Quais os problemas dessa técnica? Cite ao menos dois.
+Os métodos não podem acionar outros que não estejam no mesmo modulo.
+
+Necessidade de organizar a carga do programador a tarefa de desenvolve-la é muito complexa, tornando-a muito cara.
+
+3.(Errado - Funciona vários processos dentro da memória fisíca, mas os que estão fora de contexto ficam na memória virtual)
+A memória virtual surgiu com a necessidade de melhorar o gerenciamento de memória física do computador. Para o funcionamento de um processo, é necessária usar a memória fisíca, mas fisíca é limitada, e pode sofrer sobrecarga. Surge a memória virtual para fazer esse gerenciamento, apenas o processo que está executando usa parte da memória fisíca, e os outros processos ficam no aguardo dentro da memória virtual. Dando a impressão que eles tem a memória fisíca inteira para eles.
+MMU associa as páginas lógicas aos quadros de página fisícos na memória.
