@@ -1,0 +1,54 @@
+Sistemas de Arquivos
+
+Todo programa de computador possui os seguintes requisitos de dados.
+* Armazenamos gran quantidade.
+* Informação persistir
+* Concorrência no acesso
+
+Unidades de armazenamento oferecem
+* Ler bloco K
+* Escrever bloco K
+
+Essas operações geram complexidade no uso:
+* Como encontrar informação?
+* Como controlar acessos?
+* Como saber quais blocos estão livres?
+
+Solução: SO abstrai sistema de arquivos
+
+Conceitos importantes:
+* Arquivos (Definição - Unidade lógica de organização de informações afins)
+* Diretórios (Definição - Possui a estrutura de organizar e armazenar arquivos)
+
+Arquivos
+
+Todos arquivos possui um nome, para que possa ser encontrado.
+
+Estrutura de arquivos:
+
+- Registros
+- Árvore de registros
+- Sequência de bytes
+
+Tipos de arquivos
+* Arquivo comum (texto | binário)
+* Diretório
+* Especial de bloco   | Unix only
+* Especial sequencial | Unix only
+
+Todo sistema de arquivos associa atributos ou metadados aos arquivos.
+
+Operações sobre os arquivos
+
+- Abrir
+- Criar
+- Ler
+- Escrever
+- Apagar
+- Copiar
+- Ler atributos
+- Escrever atributos
+- Renomear
+- Append
+- Seek
+
