@@ -1,0 +1,41 @@
+Diretórios
+
+São arquivos que contém outros arquivos, inclusive diretório.
+
+Estrutura:
+
+- Inicialmente, apenas diretório raiz.
+- Combinando diretórios, faz-se a organização hierárquica
+
+Ex: (foto dia 30/10/2015)
+
+Em sistemas com diretórios há duas maneiras de referenciar arquivos:
+
+- Caminho absoluto
+C:\Windows\cmd.exe
+
+- Caminho relativo
+Se o pwd for "C:\Windows"
+cmd.exe
+./cmd.exe
+./../cmd.exe
+
+Operações em diretórios
+
+- Criar
+- Apagar
+- Abrir dir
+- Fechar dir
+- Ler dir
+- Renomear
+- Link : hard link $ln
+- Unlink
+- Soft Link $ln -s
+
+Layout do sistema de arquivos
+(foto dia 30/10/2015)
+Unidade de armazenamento
+[                             ]
+|
+V
+MBR (Master boot record)

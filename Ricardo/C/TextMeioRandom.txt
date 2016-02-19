@@ -1,0 +1,33 @@
+Para uma pessoa que não está envolvida com desenvolvimento de jogos, geralmente se tem duas visões sobre a criação de um jogo, algumas pessoas acreditam que é extremamente difícil e outras acreditam que por se tratar de jogos, é muito fácil, quando o que ocorre, na verdade, é uma média desses dois pensamentos. Já foi o tempo em que criar jogos era uma tarefa apenas para experts, hoje em dia tal feito está bem mais acessível, tendo em vista que temos diversas ferramentas, lugares para pedir ajuda e informação muito mais acessível. Temos ferramentas gratuitas nos dias atuais, nas quais um usuário sem saber muito sobre as três principais vertentes do Game Development consegue facilmente desenvolver um jogo, ferramentas estas que proporcionam todos os assets necessários para que você montar seu próprio jogo (scripts, art, efeitos sonoros e visuais, etc), a “única” parte não oferecida para esse usuário é a ideia, e nesse item está, o maior desafio de se desenvolver um jogo, temos diversos casos na história dos jogos, em que grandes empresas tiveram ideias fracas para seus jogos, e estes foram um fracasso, e o que acontece muitas vezes, é a empresa falir, por ter investido muito em suas criações, fazendo um compromisso com o retorno esperado, e este retorno não chegar. 
+As 3 principais fases
+
+1972 - A Era dos Arcades
+
+Os primeiros jogos surgiram em antigos computadores dentro de faculdades nos EUA mas foi nos fliperamas que fizeram verdadeiro sucesso, durante toda a década de 1970.
+
+1977 - Atari
+
+E foi com o Atari 2600 que a febre dos jogos eletrônicos finalmente chegam as casas de todos, trazendo versões caseiras de jogos populares dos arcades. 
+
+1983-85 Do crash ao NES
+
+Infelizmente, o mercado ficou toalmente saturado de jogos de baixa qualidade, levando ao crash da indústria de 83. A salvação veio dem 85 do Japão, da Nintendo: o NES.
+
+1987-1995 A era dos 16 bits
+
+A geração dos 16 bits foi marcada pela grande competição entre os consoles, sendo os dois mais populares o Mega Drive e o Super Nintendo. Além disso, jogos de computadores começam a crescer muito.
+
+1995 A chegada do pleisteixon
+
+Com a introdução do CD (inicialmente pelo Neo-Geo CD) e com o 3D ficando cada vez maior, os jogos começam a mudar de forma drástica. Os gráficos e o áudio melhoram cada vez mais, e temos ainda mais conteúdo.
+
+2001 Grandes mudanças
+
+Os 128 bits trouxeram algumas mudanças para o mercado. A SEGA para de criar consoles, e a Microsoft estréia com o Xbox. Funcionalidades online, funcionalidades multimídia, novas mídias
+
+Atualmente
+
+Acabamos de sair de uma geração e entrar em uma nova, que ainda não mostrou todo o seu potencial. Tivemos nos últimos anos cada vez mais melhoras no sistema on-line, que se tornou um componente muito importante nos jogos. A integração com redes sociais, TV e outros canais de mídia está sendo cada vez mais focada, assim como a distribuição digital de jogos(além de jogos independentes, que não param de crescer. Tecnologias como controles movimento e óculos de realidade aumentada estão cada vez melhores, podendo mudar a forma de se jogar definitivamente - e tudo isso está cada vez mais próximo e acessível, com consoles como o Wii que foi pensado totalmente em movimento e o Kinect, que através de uma câmera, pode observar tudo o que o jogador faz. Só resta saber o que mais vai mudar nos próximos anos, com os recentes lançamentos do Xbox One, Wii U e PlayStation 4
+
+
+
