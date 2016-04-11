@@ -17,4 +17,5 @@
 <fullyQualifiedTypeName name="javax.swing.Renderer"/>
 <fullyQualifiedTypeName name="renderEngine.Renderer"/>
 <fullyQualifiedTypeName name="renderEngine.RawModel"/>
+<fullyQualifiedTypeName name="java.nio.IntBuffer"/>
 </qualifiedTypeNameHistroy>
