@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=java.lang.Integer\ primoProximo(java.lang.Integer)
+comment1.params=n
+comment1.target=java.util.List\ decomporPrimos(java.lang.Integer)
+comment2.params=a\ b
+comment2.target=java.lang.Integer\ calcularMDC(java.lang.Integer,\ java.lang.Integer)
+numComments=3

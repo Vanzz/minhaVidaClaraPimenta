@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=Histograma(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Histograma\n
+comment1.params=palavra1
+comment1.target=java.lang.String\ limparString(java.lang.String)
+comment1.text=\n\ Classe\ respons\u00E1vel\ por\ limpar\ a\ String\n\ \n\ @param\ palavra1\ palavra\ a\ ser\ limpa\n\ @return\ a\ palavra\ limpa\ e\ min\u00FAscula\ (padr\u00E3o)\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
